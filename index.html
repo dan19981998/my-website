@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Manrope:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="sidebar__intro">
+            <div class="sidebar__top">
+                <img src="avatar.png" alt="Daniel White avatar" class="sidebar__avatar">
+                <p class="sidebar__name">Daniel White</p>
+            </div>
+            <div class="sidebar__socials" aria-label="Social links">
+                <a class="sidebar__social-link" href="https://wa.me/447867935577" target="_blank" rel="noreferrer"
+                    aria-label="WhatsApp">
+                    <span class="sidebar__social-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                            <path
+                                d="M19.05 4.91A9.82 9.82 0 0 0 12.03 2C6.58 2 2.14 6.44 2.14 11.89c0 1.74.45 3.44 1.3 4.94L2 22l5.32-1.39a9.8 9.8 0 0 0 4.7 1.2h.01c5.45 0 9.89-4.44 9.89-9.89 0-2.64-1.03-5.12-2.87-7.01Zm-7.02 15.23h-.01a8.13 8.13 0 0 1-4.14-1.13l-.3-.18-3.16.83.84-3.08-.2-.32a8.13 8.13 0 0 1-1.24-4.36c0-4.5 3.67-8.17 8.18-8.17 2.18 0 4.23.85 5.78 2.39a8.11 8.11 0 0 1 2.4 5.79c0 4.5-3.67 8.17-8.16 8.17Zm4.48-6.12c-.25-.13-1.47-.72-1.7-.8-.23-.09-.4-.13-.57.12-.17.25-.65.8-.8.96-.15.17-.29.19-.54.07-.25-.13-1.04-.38-1.97-1.2-.73-.65-1.22-1.44-1.36-1.69-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.09-.17.04-.32-.02-.45-.06-.13-.57-1.38-.78-1.89-.21-.51-.42-.44-.57-.44-.15-.01-.32-.01-.49-.01-.17 0-.45.06-.68.32-.23.25-.88.86-.88 2.09 0 1.24.91 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.08.42 1.44.54.61.19 1.16.16 1.6.1.49-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.09-.23-.15-.48-.28Z"
+                                fill="currentColor" />
+                        </svg>
+                    </span>
+                    <span class="sidebar__social-text">WhatsApp</span>
+                </a>
+                <a class="sidebar__social-link" href="mailto:danielwhite98@icloud.com" aria-label="Email">
+                    <span class="sidebar__social-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                            <path
+                                d="M3 5.5h18a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1Zm0 1.8v.34l9 6.59 9-6.59v-.34H3Zm18 2.57-8.41 6.15a1 1 0 0 1-1.18 0L3 9.87v6.83h18V9.87Z"
+                                fill="currentColor" />
+                        </svg>
+                    </span>
+                    <span class="sidebar__social-text">Email</span>
+                </a>
+                <a class="sidebar__social-link" href="https://www.upwork.com/freelancers/~0136eab1ddf2bae670?viewMode=1"
+                    target="_blank" rel="noreferrer" aria-label="Upwork">
+                    <span class="sidebar__social-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                            <path
+                                d="M17.54 6.73c-1.76 0-3.27 1.14-3.81 2.72-1.25-1.88-2.19-3.87-2.76-5.95H8.16v7.46a2.27 2.27 0 1 1-4.54 0V3.5H.8v7.46a5.07 5.07 0 1 0 10.14 0V9.7c.58 1.1 1.25 2.15 2 3.14l-1.7 7.66h2.88l1.2-5.44c.68.39 1.45.61 2.27.61 2.62 0 4.74-2.12 4.74-4.73s-2.12-4.21-4.79-4.21Zm0 6.21c-.53 0-1.03-.17-1.44-.46l.62-2.79c.26-.67.92-1.14 1.69-1.14 1 0 1.81.81 1.81 1.81s-.81 2.58-2.68 2.58Z"
+                                fill="currentColor" />
+                        </svg>
+                    </span>
+                    <span class="sidebar__social-text">Upwork</span>
+                </a>
+                <a class="sidebar__social-link" href="https://www.linkedin.com/in/daniel-white-8148b9159/"
+                    target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                    <span class="sidebar__social-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                            <path
+                                d="M6.94 8.5H3.56V19h3.38V8.5Zm.22-3.24A1.96 1.96 0 0 0 5.24 3.3a1.96 1.96 0 1 0 0 3.92c1.06 0 1.92-.86 1.92-1.96Zm12.28 7.22c0-3.15-1.68-4.62-3.92-4.62-1.8 0-2.61.99-3.06 1.69V8.5H9.08c.04.7 0 10.5 0 10.5h3.38v-5.86c0-.31.02-.62.11-.84.24-.62.8-1.27 1.73-1.27 1.22 0 1.71.93 1.71 2.29V19H19.4v-6.52Z"
+                                fill="currentColor" />
+                        </svg>
+                    </span>
+                    <span class="sidebar__social-text">LinkedIn</span>
+                </a>
+            </div>
+        </div>
+        <nav class="sidebar__nav" aria-label="Primary navigation">
+            <a class="sidebar__nav-link sidebar__nav-link--active" href="#home">
+                <span class="sidebar__nav-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                        <path
+                            d="M12 3.4 3 10.65V21h6.2v-6.1h5.6V21H21V10.65L12 3.4Zm7 15.8h-2.2v-6.1H7.2v6.1H5V11.53l7-5.64 7 5.64V19.2Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+                <span class="sidebar__nav-label">Home</span>
+            </a>
+            <a class="sidebar__nav-link" href="#about">
+                <span class="sidebar__nav-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                        <path
+                            d="M12 12.2a4.1 4.1 0 1 0-4.1-4.1 4.1 4.1 0 0 0 4.1 4.1Zm0-6.4a2.3 2.3 0 1 1-2.3 2.3A2.3 2.3 0 0 1 12 5.8Zm0 8c-4.42 0-8 2.1-8 4.7V21h16v-2.5c0-2.6-3.58-4.7-8-4.7Zm-6.2 5.4c.46-1.44 2.96-3.6 6.2-3.6 3.26 0 5.76 2.16 6.2 3.6Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+                <span class="sidebar__nav-label">About</span>
+            </a>
+            <a class="sidebar__nav-link" href="#resume">
+                <span class="sidebar__nav-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                        <path
+                            d="M6 2.5h8.8L20 7.7V21.5H6Zm8 1.8H7.8v15.4h10.4V8.45H14Zm1.36 2.35v1.02h1.02Zm-5.56 4.05h4.4v1.8H9.8Zm0 3.3h6.4v1.8H9.8Zm0 3.3h6.4v1.8H9.8Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+                <span class="sidebar__nav-label">Resume</span>
+            </a>
+            <a class="sidebar__nav-link" href="#portfolio">
+                <span class="sidebar__nav-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                        <path
+                            d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 1.8a.2.2 0 0 0-.2.2v10c0 .11.09.2.2.2h16a.2.2 0 0 0 .2-.2V7a.2.2 0 0 0-.2-.2Zm3 2.1a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm-2.2 7.1 3.3-3.15 2.6 2.15 3.7-4 4.8 5Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+                <span class="sidebar__nav-label">Portfolio</span>
+            </a>
+            <a class="sidebar__nav-link" href="#services">
+                <span class="sidebar__nav-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                        <path
+                            d="M8 3h8l1 3.2 3 1.8-1.1 3.3 1.1 3.3-3 1.8L16 21H8l-1-3.2-3-1.8 1.1-3.3L4 9l3-1.8Zm1.3 1.8-.75 2.38-2.22 1.33.82 2.46-.82 2.45 2.22 1.34.75 2.36h5.4l.75-2.36 2.22-1.34-.82-2.45.82-2.46-2.22-1.33-.75-2.38Zm2.7 3.7a3.5 3.5 0 1 1-3.5 3.5 3.5 3.5 0 0 1 3.5-3.5Zm0 1.8A1.7 1.7 0 1 0 13.7 12 1.7 1.7 0 0 0 12 10.3Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+                <span class="sidebar__nav-label">Services</span>
+            </a>
+
+            <a class="sidebar__nav-link" href="#contact">
+                <span class="sidebar__nav-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                        <path
+                            d="M3 5.5h18a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1Zm0 1.8v.34l9 6.59 9-6.59v-.34H3Zm18 2.57-8.41 6.15a1 1 0 0 1-1.18 0L3 9.87v6.83h18V9.87Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+                <span class="sidebar__nav-label">Contact</span>
+            </a>
+        </nav>
+    </aside>
+    <main>
+        <section class="hero" id="home" aria-label="Introduction image">
+            <img src="me.png" alt="Portrait for portfolio landing section" class="hero__image">
+            <div class="hero__cursor-glow" aria-hidden="true"></div>
+            <div class="hero__content">
+                <h1 class="hero__title">Daniel White</h1>
+                <p class="hero__subtitle"
+                    data-type-text="Full Stack Developer building performant, AI-enhanced digital products.">
+                    <span class="hero__subtitle-text">Full Stack Developer building performant, AI-enhanced digital
+                        products.</span><span class="hero__typing-cursor" aria-hidden="true"></span>
+                </p>
+            </div>
+            <div class="hero__scroll-cue" aria-hidden="true">
+                <span class="hero__scroll-label">Scroll</span>
+                <span class="hero__scroll-line"></span>
+            </div>
+        </section>
+
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="about__inner">
+                <h2 class="about__title" id="about-title">About</h2>
+                <hr class="about__rule" aria-hidden="true">
+                <p class="about__text">I am a full stack developer based in Birmingham, currently working at TDM and
+                    building modern web applications with React, Next.js, and Node.js. My development path began with
+                    a university Python project and progressed into commercial delivery through an intensive full stack
+                    bootcamp and multiple production roles.</p>
+
+                <div class="about__profile">
+                    <div class="about__media">
+                        <img src="avatar.png" alt="Daniel White" class="about__image">
+                    </div>
+                    <div class="about__content">
+                        <h3 class="about__job-title">Full Stack Web Developer &amp; UI/UX Designer</h3>
+                        <p class="about__lead">I hold a First Class BSc in Business Information Technology and completed
+                            a six-month full stack bootcamp at Birmingham City University. I use AI to accelerate
+                            research, prototyping, and delivery while keeping quality and maintainability high.</p>
+
+                        <ul class="about__details" aria-label="Profile details">
+                            <li><strong>Current Role:</strong> Full Stack Web Developer</li>
+                            <li><strong>University:</strong> Birmingham City University</li>
+                            <li><strong>Phone:</strong> 07867 935577</li>
+                            <li><strong>Location:</strong> Birmingham, United Kingdom</li>
+                            <li><strong>Email:</strong> danielwhite98@icloud.com</li>
+                            <li><strong>Freelance:</strong> Active on Upwork and Fiverr</li>
+                        </ul>
+
+                        <p class="about__closing">I have built my career through adaptability and consistent learning,
+                            including progressing through redundancy into stronger full stack opportunities and
+                            independent freelance delivery. I collaborate closely with design, product, and marketing
+                            stakeholders to ship scalable, user-focused experiences with measurable impact.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats" id="stats" aria-labelledby="stats-title">
+            <div class="stats__inner">
+                <h2 class="stats__title" id="stats-title">Professional Snapshot</h2>
+                <p class="stats__intro">Core milestones from my development journey.</p>
+
+                <div class="stats__grid" role="list" aria-label="Key statistics">
+                    <article class="stats__card" role="listitem">
+                        <p class="stats__value" data-count="6" data-suffix="+">0</p>
+                        <p class="stats__label">Years in Development</p>
+                    </article>
+                    <article class="stats__card" role="listitem">
+                        <p class="stats__value" data-count="50" data-suffix="+">0</p>
+                        <p class="stats__label">Clients Helped</p>
+                    </article>
+                    <article class="stats__card" role="listitem">
+                        <p class="stats__value" data-count="100" data-suffix="%">0</p>
+                        <p class="stats__label">Client Satisfaction</p>
+                    </article>
+                    <article class="stats__card" role="listitem">
+                        <p class="stats__value" data-count="70" data-suffix="+">0</p>
+                        <p class="stats__label">UI/UX Projects Delivered</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume" id="resume" aria-labelledby="resume-title">
+            <div class="resume__inner">
+                <h2 class="resume__title" id="resume-title">Resume</h2>
+                <hr class="resume__rule" aria-hidden="true">
+
+                <div class="resume__columns">
+                    <div class="resume__column">
+                        <div class="resume__block resume__block--timeline">
+                            <h3 class="resume__block-title">Summary</h3>
+                            <p class="resume__block-text">A full stack developer and UI/UX designer with a First
+                                Class BSc in Business Information Technology. I combine technical delivery with design
+                                thinking, using AI to accelerate prototyping, refactoring, and polished front-end
+                                outcomes.</p>
+                        </div>
+
+                        <div class="resume__block resume__block--timeline">
+                            <h3 class="resume__block-title">Education</h3>
+                            <div class="resume__entry">
+                                <p class="resume__entry-title">BSc Business Information Technology</p>
+                                <p class="resume__entry-subtitle">Birmingham City University</p>
+                                <p class="resume__entry-meta">2017 to 2020 · First Class Honours</p>
+                                <p class="resume__entry-text">Strong foundations across software engineering, system
+                                    analysis, cyber security, UX design, data modelling, business systems and project
+                                    management. Completed a Python-based final year project which confirmed my move into
+                                    software development.</p>
+                            </div>
+                            <div class="resume__entry">
+                                <p class="resume__entry-title">Full Stack Development Bootcamp</p>
+                                <p class="resume__entry-subtitle">Birmingham City University</p>
+                                <p class="resume__entry-meta">March 2021 to August 2021</p>
+                                <p class="resume__entry-text">A six-month full time intensive programme covering
+                                    JavaScript, React, Node.js, Express, databases, version control, API architecture
+                                    and deployment workflows. Included team-based sprints, collaborative project builds,
+                                    code reviews and real world development experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume__column">
+                        <div class="resume__block resume__block--timeline">
+                            <h3 class="resume__block-title">Experience</h3>
+                            <div class="resume__entry">
+                                <p class="resume__entry-title">Full Stack Web Developer</p>
+                                <p class="resume__entry-subtitle">TDM · Lichfield</p>
+                                <p class="resume__entry-meta">February 2024 to Present</p>
+                                <button type="button" class="resume__toggle" aria-expanded="false"
+                                    aria-controls="resume-tdm">
+                                    <span class="resume__toggle-text">Show details</span>
+                                    <span class="resume__toggle-icon" aria-hidden="true"></span>
+                                </button>
+                                <ul class="resume__entry-list" id="resume-tdm">
+                                    <li>Building full stack applications with React, Next.js, Node.js and modern tooling
+                                    </li>
+                                    <li>Creating reusable components and scalable backend services</li>
+                                    <li>Collaborating with designers and product leads on new feature planning</li>
+                                    <li>Supporting team code reviews and contributing to internal workflow improvements
+                                    </li>
+                                    <li>Participating in architectural planning for upcoming systems</li>
+                                </ul>
+                            </div>
+                            <div class="resume__entry">
+                                <p class="resume__entry-title">Front End Developer</p>
+                                <p class="resume__entry-subtitle">FFS Womens Shaving · Cannock</p>
+                                <p class="resume__entry-meta">September 2021 to November 2023</p>
+                                <button type="button" class="resume__toggle" aria-expanded="false"
+                                    aria-controls="resume-ffs">
+                                    <span class="resume__toggle-text">Show details</span>
+                                    <span class="resume__toggle-icon" aria-hidden="true"></span>
+                                </button>
+                                <ul class="resume__entry-list" id="resume-ffs">
+                                    <li>Delivering responsive customer facing interfaces</li>
+                                    <li>Improving website speed, accessibility and SEO performance</li>
+                                    <li>Developing modular front end components for long term maintainability</li>
+                                    <li>Collaborating with UX and marketing teams on new feature improvements</li>
+                                    <li>Contributing to ongoing optimisation, experiments and UI testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio" aria-labelledby="portfolio-title">
+            <div class="portfolio__inner">
+                <h2 class="portfolio__title" id="portfolio-title">Portfolio</h2>
+                <hr class="portfolio__rule" aria-hidden="true">
+                <p class="portfolio__text">A selection of recent work across UI/UX design, front-end development, and
+                    full stack delivery.</p>
+
+                <div class="portfolio__grid" role="list" aria-label="Portfolio projects">
+                    <a class="portfolio__card portfolio__card--tdm" href="https://shop.tdmgym.co.uk/" target="_blank"
+                        rel="noopener noreferrer" role="listitem">
+                        <div class="portfolio__media">
+                            <img class="portfolio__thumb" src="shopgym.png" alt="TDM Gym Shop homepage preview"
+                                loading="lazy">
+                        </div>
+                        <div class="portfolio__content">
+                            <h3 class="portfolio__card-title">TDM Gym Shop</h3>
+                            <p class="portfolio__card-desc">Premium used gym equipment store with UK-wide delivery,
+                                financing plans and bundle offers.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio__card" href="https://gymunity.co.uk/" target="_blank" rel="noopener noreferrer"
+                        role="listitem">
+                        <div class="portfolio__media">
+                            <img class="portfolio__thumb" src="unity.png" alt="Gym Unity homepage preview"
+                                loading="lazy">
+                        </div>
+                        <div class="portfolio__content">
+                            <h3 class="portfolio__card-title">Gym Unity</h3>
+                            <p class="portfolio__card-desc">Four-club 24/7 fitness brand with memberships, flexible
+                                passes and location-based booking.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio__card" href="https://shadowsport.co.uk/" target="_blank"
+                        rel="noopener noreferrer" role="listitem">
+                        <div class="portfolio__media">
+                            <img class="portfolio__thumb" src="shadow.png" alt="Shadow Sport homepage preview"
+                                loading="lazy">
+                        </div>
+                        <div class="portfolio__content">
+                            <h3 class="portfolio__card-title">Shadow Sport</h3>
+                            <p class="portfolio__card-desc">Automotive care specialists selling detailing products,
+                                accessories and merchandise.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio__card" href="https://castlesportslounge.co.uk/" target="_blank"
+                        rel="noopener noreferrer" role="listitem">
+                        <div class="portfolio__media">
+                            <img class="portfolio__thumb" src="csl.png" alt="Castle Sports Lounge homepage preview"
+                                loading="lazy">
+                        </div>
+                        <div class="portfolio__content">
+                            <h3 class="portfolio__card-title">Castle Sports Lounge</h3>
+                            <p class="portfolio__card-desc">Sports entertainment venue in Tamworth offering snooker,
+                                pool, darts and shuffleboard.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio__card" href="https://infinitepestmanagement.co.uk/" target="_blank"
+                        rel="noopener noreferrer" role="listitem">
+                        <div class="portfolio__media">
+                            <img class="portfolio__thumb" src="pest.png" alt="Infinite Pest Management homepage preview"
+                                loading="lazy">
+                        </div>
+                        <div class="portfolio__content">
+                            <h3 class="portfolio__card-title">Infinite Pest Management</h3>
+                            <p class="portfolio__card-desc">Eco-friendly domestic and commercial pest control with 24/7
+                                rapid-response service.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio__card" href="https://godeploy.com/" target="_blank" rel="noopener noreferrer"
+                        role="listitem">
+                        <div class="portfolio__media">
+                            <img class="portfolio__thumb" src="deplpoy.png" alt="go deploy homepage preview"
+                                loading="lazy">
+                        </div>
+                        <div class="portfolio__content">
+                            <h3 class="portfolio__card-title">go deploy</h3>
+                            <p class="portfolio__card-desc">Cloud-based virtual lab environment for hands-on training,
+                                vendor labs and custom courses.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="services__inner">
+                <h2 class="services__title" id="services-title">Services</h2>
+                <hr class="services__rule" aria-hidden="true">
+                <p class="services__text">From initial concept to live deployment, I help businesses build digital
+                    products that look great and perform even better.</p>
+
+                <div class="services__grid" role="list" aria-label="Services offered">
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                                <path d="M3 9h18"></path>
+                                <path d="M9 21V9"></path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">Web Design</h3>
+                        <p class="services__card-desc">I create clean, modern interfaces that put your users first.
+                            Every layout is shaped around your brand, your goals and the journey you want visitors to
+                            take.</p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">Web Development</h3>
+                        <p class="services__card-desc">Responsive, fast-loading websites built with HTML, CSS,
+                            JavaScript and React. I write clean, maintainable code that performs well across every
+                            device and browser.</p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M2 12h20"></path>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">E-commerce</h3>
+                        <p class="services__card-desc">Online stores designed to convert, with smooth checkout flows,
+                            clear product pages and easy backend management so you can focus on selling.</p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="M2 2l7.586 7.586"></path>
+                                <circle cx="11" cy="11" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">UI/UX Design</h3>
+                        <p class="services__card-desc">User-focused design systems, wireframes and prototypes that
+                            make products easier and more enjoyable to use. I balance aesthetics with usability at
+                            every step.</p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">Branding</h3>
+                        <p class="services__card-desc">Logos, colour palettes, typography and visual identity that
+                            give your business a consistent, memorable presence across every platform and touchpoint.
+                        </p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 3h18v18H3z"></path>
+                                <path d="M3 9h18"></path>
+                                <path d="M9 21V9"></path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">Shopify</h3>
+                        <p class="services__card-desc">Custom Shopify themes, store setup and ongoing optimisations
+                            using Liquid and the Shopify API. Built to showcase products beautifully and drive sales.
+                        </p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">WordPress</h3>
+                        <p class="services__card-desc">Bespoke WordPress sites, custom themes and plugin integrations
+                            using PHP. Flexible, scalable solutions that are easy for you and your team to manage.</p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">Support & Maintenance</h3>
+                        <p class="services__card-desc">Ongoing updates, security checks, backups and improvements to
+                            keep your site fast, safe and running smoothly long after launch.</p>
+                    </article>
+                    <article class="services__card" role="listitem">
+                        <div class="services__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="services__card-title">SEO & Performance</h3>
+                        <p class="services__card-desc">Faster load times, better search visibility and technical
+                            optimisations that help the right people find your site and keep them engaged once they do.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="contact__inner">
+                <h2 class="contact__title" id="contact-title">Contact</h2>
+                <hr class="contact__rule" aria-hidden="true">
+                <p class="contact__text">Have a project in mind? Send a message and I will get back to you as soon as
+                    possible.</p>
+
+                <form class="contact__form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
+                    aria-label="Contact form">
+                    <div class="contact__field">
+                        <label class="contact__label" for="contact-name">Name</label>
+                        <input class="contact__input" id="contact-name" type="text" name="name" placeholder="Your name"
+                            required>
+                    </div>
+                    <div class="contact__field">
+                        <label class="contact__label" for="contact-email">Email</label>
+                        <input class="contact__input" id="contact-email" type="email" name="email"
+                            placeholder="Your email" required>
+                    </div>
+                    <div class="contact__field">
+                        <label class="contact__label" for="contact-subject">Subject</label>
+                        <input class="contact__input" id="contact-subject" type="text" name="subject"
+                            placeholder="What is this about?">
+                    </div>
+                    <div class="contact__field contact__field--full">
+                        <label class="contact__label" for="contact-message">Message</label>
+                        <textarea class="contact__textarea" id="contact-message" name="message" rows="5"
+                            placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <div class="contact__actions">
+                        <button class="contact__button" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__name">Daniel White</p>
+            <div class="footer__details">
+                <span class="footer__item">Phone: 07867 935577</span>
+                <span class="footer__divider" aria-hidden="true">|</span>
+                <span class="footer__item">Email: danielwhite98@icloud.com</span>
+            </div>
+            <p class="footer__copyright">&copy; 2025 Daniel White. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
